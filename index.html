@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zarix Airdrop</title>
+</head>
+<body>
+    <h2>Zarix Airdrop Tool</h2>
+    <textarea id="addresses" rows="10" cols="50" placeholder="هر آدرس در یک خط"></textarea><br><br>
+    <input type="number" id="amount" value="800" placeholder="مقدار توکن برای هر آدرس"><br><br>
+    <button onclick="connectWallet()">اتصال به MetaMask</button>
+    <button onclick="sendAirdrop()">ارسال ایردراپ</button>
+    <pre id="status"></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
